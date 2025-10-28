@@ -1,0 +1,22 @@
+[2025-10-27T03:19:53.840+0000][gc,heap] Heap region size: 1M
+[2025-10-27T03:19:53.900+0000][gc     ] Using G1
+[2025-10-27T03:19:53.900+0000][gc,heap,coops] Heap address: 0x00000000e0000000, size: 512 MB, Compressed Oops mode: 32-bit
+[2025-10-27T03:20:00.697+0000][gc,start     ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2025-10-27T03:20:00.697+0000][gc,task      ] GC(0) Using 1 workers of 1 for evacuation
+[2025-10-27T03:20:00.771+0000][gc,mmu       ] GC(0) MMU target violated: 21,0ms (20,0ms/21,0ms)
+[2025-10-27T03:20:00.771+0000][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 0,1ms
+[2025-10-27T03:20:00.771+0000][gc,phases    ] GC(0)   Evacuate Collection Set: 71,6ms
+[2025-10-27T03:20:00.772+0000][gc,phases    ] GC(0)   Post Evacuate Collection Set: 1,2ms
+[2025-10-27T03:20:00.772+0000][gc,phases    ] GC(0)   Other: 1,2ms
+[2025-10-27T03:20:00.772+0000][gc,heap      ] GC(0) Eden regions: 25->0(21)
+[2025-10-27T03:20:00.772+0000][gc,heap      ] GC(0) Survivor regions: 0->4(4)
+[2025-10-27T03:20:00.772+0000][gc,heap      ] GC(0) Old regions: 0->4
+[2025-10-27T03:20:00.772+0000][gc,heap      ] GC(0) Humongous regions: 0->0
+[2025-10-27T03:20:00.772+0000][gc,metaspace ] GC(0) Metaspace: 7104K(7680K)->7104K(7680K) NonClass: 6308K(6656K)->6308K(6656K) Class: 796K(1024K)->796K(1024K)
+[2025-10-27T03:20:00.772+0000][gc           ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 25M->7M(512M) 74,395ms
+[2025-10-27T03:20:00.772+0000][gc,cpu       ] GC(0) User=0,04s Sys=0,03s Real=0,07s
+[2025-10-27T14:31:14.397+0000][gc,heap,exit ] Heap
+[2025-10-27T14:31:14.402+0000][gc,heap,exit ]  garbage-first heap   total 524288K, used 28220K [0x00000000e0000000, 0x0000000100000000)
+[2025-10-27T14:31:14.402+0000][gc,heap,exit ]   region size 1024K, 25 young (25600K), 4 survivors (4096K)
+[2025-10-27T14:31:14.404+0000][gc,heap,exit ]  Metaspace       used 9470K, capacity 9900K, committed 10240K, reserved 1058816K
+[2025-10-27T14:31:14.404+0000][gc,heap,exit ]   class space    used 1003K, capacity 1163K, committed 1280K, reserved 1048576K
